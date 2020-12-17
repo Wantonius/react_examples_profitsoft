@@ -35,7 +35,7 @@ class App extends React.Component {
 		<div className="App">
 			<NameForm startGame={this.startGame}/>
 			<hr/>
-			<GameRunner gamestate={this.gamestate} playername={this.playername} currentTarget={this.currentTarget} resetGame={this.state.resetGame}/>
+			<GameRunner gamestate={this.state.gamestate} playername={this.state.playername} currentTarget={this.state.currentTarget} resetGame={this.resetGame}/>
 		</div>
 	  );
   }
